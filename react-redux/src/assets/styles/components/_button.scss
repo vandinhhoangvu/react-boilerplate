@@ -1,0 +1,48 @@
+@use '../variables' as *;
+
+.ant-btn {
+  &.btn-custom {
+    height: 40px;
+    border-radius: 6px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    &.ant-btn-primary {
+      background: var(--primary-color);
+      &:hover {
+        background: var(--primary-hover);
+      }
+    }
+
+    &.ant-btn-default {
+      border-color: var(--border-color);
+      &:hover {
+        border-color: var(--primary-color);
+        color: var(--primary-color);
+      }
+    }
+
+    &.ant-btn-lg {
+      height: 48px;
+      padding: 0 24px;
+      font-size: 16px;
+    }
+
+    &.ant-btn-sm {
+      height: 32px;
+      padding: 0 12px;
+      font-size: 14px;
+    }
+
+    .anticon {
+      margin-left: 8px;
+
+      &.anticon-loading {
+        margin-left: 0;
+        margin-right: 8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@forward 'variables/colors';
+@forward 'variables/spacing';
+@forward 'variables/typography';
+
+:root {
+  // Theme colors
+  --primary-color: #1677ff;
+  --primary-hover: #4096ff;
+  --border-color: #d9d9d9;
+  --text-color: rgba(0, 0, 0, 0.88);
+  --disabled-color: rgba(0, 0, 0, 0.25);
+  --disabled-bg: rgba(0, 0, 0, 0.04);
+
+  // Spacing
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+
+  // Border radius
+  --border-radius: 6px;
+}
